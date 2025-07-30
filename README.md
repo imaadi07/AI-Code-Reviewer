@@ -44,7 +44,7 @@ GOOGLE_GEMINI_KEY=<gemini_api_key>
 FRONTEND_URI=<frontend_url>
 PORT=<port_for_backend>
 ```
-You can generate an API key from: [Link Text](https://ai.google.dev/)
+You can generate an API key from: [Gemini API](https://ai.google.dev/)
 
 
 ### 3. **Frontend**
