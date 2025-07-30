@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.6rem;
+}
+
+main .left {
+  background-color: black;
+  position: relative;
+}
+
+main .left .code pre {
+  margin: 0;
+  padding: 0;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.6rem;
+  background-color: rgb(28, 27, 27);
+}
+
+.left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
+  background-color: rgb(199, 199, 237);
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.6rem;
+  color: black;
+  user-select: none;
+}
+
+main .right {
+  background-color: rgb(59, 58, 58);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  overflow: auto;
+}
