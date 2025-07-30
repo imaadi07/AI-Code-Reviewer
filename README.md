@@ -14,7 +14,7 @@ An intelligent, full-stack AI-powered application that reviews code snippets in 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer       | Technology        |
 |-------------|-------------------|
@@ -26,7 +26,7 @@ An intelligent, full-stack AI-powered application that reviews code snippets in 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. **Clone the Repository**
 ```bash
@@ -38,20 +38,21 @@ cd ai-code-reviewer
 cd backend
 npm i
 ```
-After that make sure to create an Enviornment Variable File(.env) and fill the below content: 
+After that, make sure to create an Environment Variable File(.env) and fill the below content: 
 ```bash
 GOOGLE_GEMINI_KEY=<gemini_api_key>
 FRONTEND_URI=<frontend_url>
 PORT=<port_for_backend>
 ```
-You can generate an API key from: `https://ai.google.dev/`
+You can generate an API key from: [Link Text](https://ai.google.dev/)
+
 
 ### 3. **Frontend**
 ```bash
 cd frontend
 npm i
 ```
-Also create an Enviornment Variable File(.env) and fill the below content:
+Also create an Environment Variable File(.env) and fill the below content:
 ```bash
 VITE_BACKEND_URI=<backend_url>
 ```
